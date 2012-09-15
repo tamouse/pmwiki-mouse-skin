@@ -3,7 +3,7 @@
  *
  * Author: Tamara Temple <tamara@tamaratemple.com>
  * Created: 2012-09-14
- * Time-stamp: <2012-09-15 02:59:06 tamara>
+ * Time-stamp: <2012-09-15 04:17:33 tamara>
  * Version: 2012-09-14
  * Copyright (c) 2012 Tamara Temple Web Development
  * License: CC BY-NC-AT
@@ -23,7 +23,7 @@ header { border-bottom: 3px solid #999; }
 #pageactions ul { list-style:none; margin:0;padding:0; }
 #pageactions ul li { display: inline; margin: 0px 3px; }
 
-aside { font-size: 90%; position: fixed; top: 10px; left: 10px; display:block; width: 200px;} /* sidebar */
+aside { font-size: 90%; position: fixed; top: 10px; left: 10px; display:block; width: 200px; height: 98%; overflow-y:auto;} /* sidebar */
 
 footer {clear:both;margin-top:20px;border-top: 3px solid #999;}
 
