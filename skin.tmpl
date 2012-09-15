@@ -10,29 +10,35 @@
       <![endif]-->
 </head>
 <body>
-<aside>
-<!--PageLeftFmt-->
-<!--wiki:$Group.SideBar $SiteGroup.SideBar-->
-<!--/PageLeftFmt-->
-</aside>
 <article>
 <header>
 <!--PageHeaderFmt-->
 <!--wiki:$Group.SiteHeader $SiteGroup.SiteHeader-->
 <!--/PageHeaderFmt-->
 </header>
-<section id="pageactionscontainer">
+<section>
+  <!--PageTitleFmt-->
+  <!--wiki:$Group.PageTitle $SiteGroup.PageTitle-->
+  <!--PageText-->
+</section>
+<footer>
+  <!--PageFooterFmt-->
+  <!--wiki:$SiteGroup.SiteFooter-->
+  <!--/PageFooterFmt-->
+</footer>
+<div id="pageactionscontainer">
   <nav id="pageactions">
     <!--PageActionsFmt-->
     <!--wiki:$Group.PageActions $SiteGroup.PageActions-->
     <!--/PageActionsFmt-->
   </nav>
-</section>
-  <!--PageText-->
-<footer>
-  <!--wiki:$SiteGroup.SiteFooter-->
-  <!--HTMLFooter-->
-</footer>
+</div>
 </article>
+<aside>
+<!--PageLeftFmt-->
+<!--wiki:$Group.SideBar $SiteGroup.SideBar-->
+<!--/PageLeftFmt-->
+</aside>
+<!--HTMLFooter-->
 </body>
 </html>

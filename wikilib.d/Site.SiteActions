@@ -1,0 +1,21 @@
+version=pmwiki-2.2.42 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:15.0) Gecko/20100101 Firefox/15.0.1
+author=tamouse
+charset=UTF-8
+csum=
+ctime=1347680348
+host=127.0.0.1
+name=Site.SiteActions
+rev=3
+targets=Main.HomePage,Site.SiteActions,Site.AllRecentChanges
+text=* [[{$DefaultGroup}/|Home]]%0a* [[{$FullName}?action=search?q=%252F|Sitemap]]%0a* [[Site.AllRecentChanges|Recent Changes]]%0a(:searchbox size=20:)%0a
+time=1347742480
+author:1347742480=tamouse
+diff:1347742480:1347680356:=1,3c1,2%0a%3c * [[{$DefaultGroup}/|Home]]%0a%3c * [[{$FullName}?action=search?q=%252F|Sitemap]]%0a%3c * [[Site.AllRecentChanges|Recent Changes]]%0a---%0a> * Sitemap%0a> * Recent Changes%0a
+host:1347742480=127.0.0.1
+author:1347680356=
+diff:1347680356:1347680348:=
+host:1347680356=127.0.0.1
+author:1347680348=
+diff:1347680348:1347680348:=1,3d0%0a%3c * Sitemap%0a%3c * Recent Changes%0a%3c (:searchbox size=20:)%0a
+host:1347680348=127.0.0.1

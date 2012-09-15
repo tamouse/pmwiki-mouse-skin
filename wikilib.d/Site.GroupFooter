@@ -1,0 +1,15 @@
+version=pmwiki-2.2.35 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:15.0) Gecko/20100101 Firefox/15.0.1
+author=
+charset=UTF-8
+csum=
+ctime=1347683830
+host=127.0.0.1
+name=Site.GroupFooter
+rev=1
+targets=
+text=%0a----%0a>>font-size=85pct%3c%3c%0aPage last updated {$LastModified} by {$LastModifiedBy}.%0a>>%3c%3c%0a%0a(:messages:)%0a
+time=1347683830
+author:1347683830=
+diff:1347683830:1347683830:=1,7d0%0a%3c %0a%3c ----%0a%3c >>font-size=85pct%3c%3c%0a%3c Page last updated {$LastModified} by {$LastModifiedBy}.%0a%3c >>%3c%3c%0a%3c %0a%3c (:messages:)%0a
+host:1347683830=127.0.0.1
