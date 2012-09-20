@@ -3,7 +3,7 @@
  *
  * Author: Tamara Temple <tamara@tamaratemple.com>
  * Created: 2012-09-14
- * Time-stamp: <2012-09-15 11:33:09 tamara>
+ * Time-stamp: <2012-09-20 02:40:26 tamara>
  * Version: 2012-09-14
  * Copyright (c) 2012 Tamara Temple Web Development
  * License: CC BY-NC-AT
@@ -15,9 +15,9 @@ header { border-bottom: 3px solid #999; }
 .sitetitle { font-weight:bold; font-size: 150%; }
 .sitetitle a { color: black; }
 .sitetag { font-style:italic; font-size: 120% }
-#siteactions { display:block;float:right; text-align:right; }
-#siteactions ul { list-style:none; margin:0;padding:0; }
-#siteactions ul li { display:inline; margin: 0 3px; }
+.siteactions { display:block;float:right; text-align:right; }
+.siteactions ul { list-style:none; margin:0;padding:0; }
+.siteactions ul li { display:inline; margin: 0 3px; }
 #pageactionscontainer {wrap:none;min-width:20%;position:fixed;top:0;right:0; }
 #pageactions { font-size:85%; display:block; text-align:right; color:#ddd; background-color:#222;}
 #pageactions a { color:#dd0; text-decoration:none; }
@@ -55,15 +55,12 @@ div.toc li { padding-right: 5px; }
 #wikiedit form { margin:0px; width:100%; }
 #wikiedit textarea { width:100%; }
 
+.smaller { font-size:80%; }
 .wikimessage { margin-top:4px; margin-bottom:4px; font-style:italic; }
 .tags { display: inline; }
-.trail {text-align: center; font-size: 75%;font-style: italic;display:block; }
-.categories {text-align: right; font-size: 75%; font-style: italic; display:block; margin-left:2px;float:right;border:1px solid #999;}
-
 .listtag {padding-left:1px;padding-right:1px;}
 .sidehead {margin-left:0;margin-bottom:0;margin-top:3px;text-transform:uppercase;font-size: 110%;border-bottom: 1px solid #999;}
-.summary {font-size: 80%;font-style: italic;}
-.notebox {
+.note {
 	display:block;
 	border: 1px solid #093;
 	width: 50%;
@@ -73,7 +70,6 @@ div.toc li { padding-right: 5px; }
 	background-position: center left;
 	background-repeat: no-repeat;
 }
-.note {font-style:italic;}
 .important {
 	display:block;
 	border: 1px solid #960;
